@@ -8,7 +8,7 @@ export function Header(){
         <div className='header'>
         <div>
           <h1>Hi, I'm Vanessa!</h1>
-          <h2>Software Engineer</h2>
+          <h2>Software Development | Telecommunications Networks | AWS </h2>
         </div>
         <Image
           src="/profile.png"

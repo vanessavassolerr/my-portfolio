@@ -1,9 +1,10 @@
 import { Header } from './components/header/header/header'
 import { Experience } from './components/experience/experience'
 import { Info } from './components/information/information'
-
+import { SocialBtns } from './components/social-btns/social-btns'
 import "./styles/home.scss"
 import Image from 'next/image'
+import { EmailIcon } from './components/icons/email-icon'
 
 export default function Home() {
   return (
@@ -12,18 +13,10 @@ export default function Home() {
       <Experience/>
       <Info/>
         <div className="buttons">
-          <div className="social">
-
-          </div>
-          <button className="btn-primary">Contact me
-            <Image
-            src="/email-icon.png"
-            alt="Email Icon"
-            width={24}
-            height={24}
-            priority
-          />
-          </button>
+          <SocialBtns/>
+          <a className="btn-primary" href='mailto:vvassoler10@gmail.com'>Contact me
+          <EmailIcon/>
+          </a>
         </div>
     </main>
   )

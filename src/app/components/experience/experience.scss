@@ -1,25 +1,41 @@
 .experience {
     display: flex;
-    flex-direction:  column;
+    flex-direction: column;
     align-items: center;
+    max-width: 500px;
 
     grid-area: experience;
     gap: 24px;
 
+    h2 {
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 20px;
+        color: gray;
+        justify-content: center;
+
+    }
+    text {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 20px;
+        color: white;
+        justify-content: left;
+
+    }
     p { 
         font-weight: 300;
         font-size: 18px;
         line-height: 20px;
-        color: var(--text-secondary);
-        text-align: center;
+        color: white;
+        text-align: left;
     }
 
     @media (min-width: 768px) {
         align-items: flex-start;
        p { font-weight: 300;
         font-size: 24px;
-        line-height: px;
-        color: var(--text-primary);
-        text-align: center;
+        color: white;
+        text-align: left;
     }} 
 }

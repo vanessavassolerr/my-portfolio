@@ -3,17 +3,18 @@ import "./information.scss"
 
 export function Info(){
     return(
-        <div className='infos'>
-        <SectionTitle text="Languages"/>
+      <div className='infos'>
+      <h2>Languages</h2>
       <div className="languages-info">
-        <span>EN - Advanced</span>
-        <span>PT-BR - Native Speaker</span>
+        <text>English - Advanced</text>
+        <text>Portuguese - Native Speaker</text>
+      
       </div>
-      <SectionTitle text="Education"/>
+      <h2>Education</h2>
       <div className='educational-info'>
-        <span></span>
-        <span>One year working as a Software Engineer Intern in Itau Unibanco</span>
-        </div>
+        <text>📡 Telecomunications Engineer - Universidade Estadual de Campinas (UNICAMP)</text>
+        <text>📡 5G Technologies Training - Universidade Federal de Minas Gerais (UFMG) </text>
+      </div>
         </div>
     )
 }
